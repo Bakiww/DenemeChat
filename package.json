@@ -1,0 +1,14 @@
+{
+  "name": "realtime-secret-chat",
+  "version": "1.0.0",
+  "description": "Şifre korumalı tam zamanlı gizli chat odası",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "dotenv": "^16.4.5"
+  }
+}
